@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Variables (Custom Properties) Example</title>
+    <style>
+        /* Define CSS variables */
+        :root {
+            --primary-color: blue; /* Define a variable for primary color */
+            --secondary-color: green; /* Define a variable for secondary color */
+            --font-size: 16px; /* Define a variable for font size */
+        }
+
+        /* Use CSS variables */
+        .custom-styles {
+            color: var(--primary-color); /* Use the primary color variable for text color */
+            background-color: var(--secondary-color); /* Use the secondary color variable for background color */
+            font-size: var(--font-size); /* Use the font size variable */
+        }
+    </style>
+</head>
+<body>
+    <!-- Element with custom styles using CSS variables -->
+    <div class="custom-styles">
+        <p>This text uses custom CSS variables for color and font size.</p>
+    </div>
+</body>
+</html>

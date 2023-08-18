@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Transitions Example</title>
+    <style>
+        /* Apply styles to the element */
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: lightblue;
+            transition: width 1s, height 1s, background-color 1s; /* Define transitions for width, height, and background-color properties with 1-second duration */
+        }
+
+        /* Apply hover styles */
+        .box:hover {
+            width: 200px; /* Increase width on hover */
+            height: 200px; /* Increase height on hover */
+            background-color: lightcoral; /* Change background color on hover */
+        }
+    </style>
+</head>
+<body>
+    <!-- Box with transitions on hover -->
+    <div class="box"></div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Units Example</title>
+    <style>
+        /* Using pixels (px) */
+        .box-px {
+            width: 200px;
+            height: 100px;
+            background-color: lightblue;
+        }
+
+        /* Using percentages (%) */
+        .box-percent {
+            width: 50%;
+            height: 50%;
+            background-color: black;
+        }
+
+        /* Using em units */
+        .box-em {
+            font-size: 16px; /* 1em is equal to the font-size of the element */
+            padding: 1em;
+            background-color: lightcoral;
+        }
+
+        /* Using rem units */
+        body {
+            font-size: 16px; /* Set the base font size for the document */
+        }
+
+        .box-rem {
+            padding: 2rem; /* 1rem is equal to the base font size of the document */
+            background-color: lightyellow;
+        }
+
+        /* Using viewport units */
+        .box-vw-vh {
+            width: 50vw; /* 50% of the viewport width */
+            height: 50vh; /* 50% of the viewport height */
+            background-color: lightpink;
+        }
+    </style>
+</head>
+<body>
+    <!-- Using pixels (px) -->
+    <div class="box-px"></div>
+
+    <!-- Using percentages (%) -->
+    <div class="box-percent"></div>
+
+    <!-- Using em units -->
+    <div class="box-em">This box uses em units for padding.</div>
+
+    <!-- Using rem units -->
+    <div class="box-rem">This box uses rem units for padding.</div>
+
+    <!-- Using viewport units -->
+    <div class="box-vw-vh"></div>
+</body>
+</html>
